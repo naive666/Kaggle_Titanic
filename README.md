@@ -26,5 +26,8 @@ Titanic is a classic and famous kaggle competition which has been widely learnt 
     - I extracted the titles from the name of every customer and created a new feature called 'Title'. Since it is much plausible to use the title of a person instead of the name to decribe the social status of a person so as to explain why perple with title 'Ms', 'Miss' had higher survival rate than those with other titles. 
     - Likewise, I created 'Total_Family' to show how many family members one customer had. 'Surname' is another feature created to illustrate the surname of every person. 
     - From the observation, the distribution of 'Fare' is long-tailed, so I applied log to this feature so that the distribution seems more normal.
-  - When all valid feature was prepared, it is helpful to visualize the correlation between features and labels. 
-## 
+  - When all valid feature was prepared, it is helpful to visualize the correlation between features and labels using hotmap.
+  <div align=center><img width='600', height='600' src='/hotmap.png' /></div>
+
+## [Model]()
+
