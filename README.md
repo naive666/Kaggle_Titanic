@@ -29,5 +29,7 @@ Titanic is a classic and famous kaggle competition which has been widely learnt 
   - When all valid feature was prepared, it is helpful to visualize the correlation between features and labels using hotmap.
   <div align=center><img width='600', height='600' src='/hotmap.png' /></div>
 
-## [Model]()
+## Models
+Here I present 3 versions of my models. [Model1](\Model.ipynb) is the first version of my model, in which I tried different models with different parameters using GridSearch and evaluated them respectively. Also, I drew a picture reflecting the contribution of each feature to the final prediction. 
+
 
