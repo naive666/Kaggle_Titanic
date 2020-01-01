@@ -41,3 +41,4 @@ After using different models to predict, I tried stacked models but the results 
 In this project, feature engineering and feature selection are both crucial! When I merely used the original data and made some basic processing such as transfer the categorical to numerical, the result was much worse than my expectation. However, when the new features was appended, the result accuracy showed a perceptible difference. The predict model was not that important as compared to the feature engineering process, the score of the best models were not so huge that affected the rank in Kaggle private board. Also, I found that to small data set, a simple model is usually performing better than those complicated ones.
 
 ## Contributors
+<a href="https://github.com/naive666"><img src="https://avatars2.githubusercontent.com/u/53068274?s=40&v=4&button=True" /></a>
