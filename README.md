@@ -5,7 +5,10 @@
    - [Introduction](#introduction)
    - [Data Understanding](#data-understanding)
    - [Feature Engineering](#feature-engineering)
-
+   - [Models](#models)
+   - [Summary](#summary)
+   - [Contributors](#contributors)
+  
 ## Introduction 
 Titanic is a classic and famous kaggle competition which has been widely learnt by many novoices. This respository introduces some fundamental knowledge and processes to work with a data science project.  
 
@@ -30,6 +33,11 @@ Titanic is a classic and famous kaggle competition which has been widely learnt 
   <div align=center><img width='600', height='600' src='/hotmap.png' /></div>
 
 ## Models
-Here I present 3 versions of my models. [Model1](\Model.ipynb) is the first version of my model, in which I tried different models with different parameters using GridSearch and evaluated them respectively. Also, I drew a picture reflecting the contribution of each feature to the final prediction. 
+Here I present 3 versions of my models. [Model1](/Model.ipynb) is the first version of my model, in which I tried different models with different parameters using GridSearch and evaluated them respectively. Also, I drew a picture reflecting the contribution of each feature to the final prediction. 
+<div align=center><img width='1000', height='600' src='/Model_evaluation.png' /></div>
+After using different models to predict, I tried stacked models but the results were not good enough due to the complexity of the model. Thus, the second [model](/Model2.ipynb) is a simplified model and the third [model](/Model3.ipynb) is my ultimate model using the best cross-validation scored model.
 
+## Summary
+In this project, feature engineering and feature selection are both crucial! When I merely used the original data and made some basic processing such as transfer the categorical to numerical, the result was much worse than my expectation. However, when the new features was appended, the result accuracy showed a perceptible difference. The predict model was not that important as compared to the feature engineering process, the score of the best models were not so huge that affected the rank in Kaggle private board. Also, I found that to small data set, a simple model is usually performing better than those complicated ones.
 
+## Contributors
